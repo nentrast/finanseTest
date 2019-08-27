@@ -55,6 +55,12 @@ class ActiveSectionController: SectionControllerModel, TableViewCompatible {
 }
 
 class IcomeSectionController: SectionControllerModel, TableViewCompatible {
+    var model: IncomeRoot
+    
+    init(model: IncomeRoot) {
+        self.model = model
+    }
+    
     func sectionCount() -> Int {
         return model.items.count
     }
@@ -82,12 +88,4 @@ class IcomeSectionController: SectionControllerModel, TableViewCompatible {
         cell.configure(model)
         return cell
     }
-    
-    var model: IncomeRoot
-    
-    init(model: IncomeRoot) {
-        self.model = model
-    }
-    
-    
 }

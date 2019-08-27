@@ -18,6 +18,7 @@
 		A849E7012313C14A007E6F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A849E6FF2313C14A007E6F9A /* LaunchScreen.storyboard */; };
 		A849E70A2313C1C3007E6F9A /* StockActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849E7082313C1C3007E6F9A /* StockActiveViewController.swift */; };
 		A849E70B2313C1C3007E6F9A /* StockActiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A849E7092313C1C3007E6F9A /* StockActiveViewController.xib */; };
+		A85BB87023154204007DD08E /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85BB86F23154204007DD08E /* AppFlowController.swift */; };
 		A8886D482313C2C900DD7E91 /* ActivesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D462313C2C900DD7E91 /* ActivesTableViewCell.swift */; };
 		A8886D492313C2C900DD7E91 /* ActivesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8886D472313C2C900DD7E91 /* ActivesTableViewCell.xib */; };
 		A8886D4C2313C2F200DD7E91 /* StockActivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D4B2313C2F200DD7E91 /* StockActivePresenter.swift */; };
@@ -52,6 +53,7 @@
 		A849E7022313C14A007E6F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A849E7082313C1C3007E6F9A /* StockActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockActiveViewController.swift; sourceTree = "<group>"; };
 		A849E7092313C1C3007E6F9A /* StockActiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockActiveViewController.xib; sourceTree = "<group>"; };
+		A85BB86F23154204007DD08E /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
 		A8886D462313C2C900DD7E91 /* ActivesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivesTableViewCell.swift; sourceTree = "<group>"; };
 		A8886D472313C2C900DD7E91 /* ActivesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivesTableViewCell.xib; sourceTree = "<group>"; };
 		A8886D4B2313C2F200DD7E91 /* StockActivePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockActivePresenter.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				A849E6F62313C148007E6F9A /* AppDelegate.swift */,
+				A85BB86F23154204007DD08E /* AppFlowController.swift */,
 				A849E6FD2313C14A007E6F9A /* Assets.xcassets */,
 				A849E6FF2313C14A007E6F9A /* LaunchScreen.storyboard */,
 				A849E7022313C14A007E6F9A /* Info.plist */,
@@ -345,6 +348,7 @@
 				A8886D5E231411F800DD7E91 /* TableViewContrller.swift in Sources */,
 				A849E6F72313C148007E6F9A /* AppDelegate.swift in Sources */,
 				A80F607423150DCD00786148 /* SectionControllerModel.swift in Sources */,
+				A85BB87023154204007DD08E /* AppFlowController.swift in Sources */,
 				A80F60702314635100786148 /* IncomeTableViewCell.swift in Sources */,
 				A8886D482313C2C900DD7E91 /* ActivesTableViewCell.swift in Sources */,
 				A8886D542313DA2200DD7E91 /* NetworkRouter.swift in Sources */,

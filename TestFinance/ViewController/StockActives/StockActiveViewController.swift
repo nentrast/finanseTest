@@ -9,7 +9,6 @@
 import UIKit
 
 protocol StockActiveViewControllerOutput: class  {
-    func showDetailedIncome(for model: ActiveRoot)
     func showModels(_ model: SectionControllerModel)
     func showError(_ error: Error?)
 }
@@ -43,15 +42,9 @@ class StockActiveViewController: UIViewController, StockActiveViewControllerOutp
         embedController(tableViewContrller, containerView: tableContrinerView)
         presenter?.getStockActives()
     }
-    
-    func showDetailedIncome(for model: ActiveRoot) {
-        let controller = SceneFactory.incomeScene(model)
-        navigationController?.pushViewController(controller, animated: true)
-    }
-    
+  
     func showModels(_ model: SectionControllerModel) {
         tableViewController?.update(model)
-       print(model)
     }
     
     func showError(_ error: Error?) {

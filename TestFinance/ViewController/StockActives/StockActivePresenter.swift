@@ -19,12 +19,13 @@ protocol StockActivePresenterOutput: class {
 }
 
 class StockActivePresenter: NSObject, StockActivePresenterInput {
-  
+   
     weak var view: StockActiveViewControllerOutput?
     var useCase: StockUseCase?
+    var controller: AppFlowController?
     
     func didSelect(model: ActiveRoot) {
-        view?.showDetailedIncome(for: model)
+        controller?.showDetailedIncome(model)
     }
     
     func getStockActives() {

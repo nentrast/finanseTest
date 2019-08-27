@@ -13,15 +13,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var appFlowController: AppFlowController?
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let stockVC = SceneFactory.stockActivesScene()
-        let nc = UINavigationController(rootViewController: stockVC)
+        appFlowStart()
+        return true
+    }
+    
+    private func appFlowStart() {
+        let nc = UINavigationController()
+        appFlowController = AppFlowController.init(nc: nc)
+        appFlowController?.start()
+        
         let frame = UIScreen.main.bounds
         window = UIWindow(frame: frame)
         window?.rootViewController = nc
         window?.makeKeyAndVisible()
-
-        return true
     }
 }
 

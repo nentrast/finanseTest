@@ -9,7 +9,7 @@
 import UIKit
 
 class SceneFactory {
-    static func stockActivesScene() -> UIViewController {
+    static func stockActivesScene(flowController: AppFlowController) -> UIViewController {
         let view = StockActiveViewController()
         let presenter = StockActivePresenter()
         let useCase = StockUseCase()
@@ -20,7 +20,8 @@ class SceneFactory {
         presenter.view = view
         useCase.presenter = presenter
         useCase.network = network
-        
+        presenter.controller = flowController
+
         return view
     }
     

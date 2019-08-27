@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestFinance/ViewController/StockActives/StockActiveViewController.swift"
-            timestampString = "588585070.206792"
+            filePath = "TestFinance/Model/SectionControllerModel.swift"
+            timestampString = "588596421.680869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "tableView(_:didSelect:indexPath:)"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "init(model:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
