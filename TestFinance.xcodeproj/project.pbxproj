@@ -3,25 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80F60702314635100786148 /* IncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F606E2314635100786148 /* IncomeTableViewCell.swift */; };
+		A80F60712314635100786148 /* IncomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80F606F2314635100786148 /* IncomeTableViewCell.xib */; };
+		A80F607423150DCD00786148 /* SectionControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F607323150DCD00786148 /* SectionControllerModel.swift */; };
+		A840644623142717008BD781 /* UIViewContrller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A840644523142717008BD781 /* UIViewContrller+Extension.swift */; };
+		A8406448231437E8008BD781 /* DetailedIncomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8406447231437E8008BD781 /* DetailedIncomePresenter.swift */; };
+		A840644A23143805008BD781 /* DetailedIncomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A840644923143805008BD781 /* DetailedIncomeUseCase.swift */; };
 		A849E6F72313C148007E6F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849E6F62313C148007E6F9A /* AppDelegate.swift */; };
-		A849E6F92313C148007E6F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849E6F82313C148007E6F9A /* ViewController.swift */; };
-		A849E6FC2313C148007E6F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A849E6FA2313C148007E6F9A /* Main.storyboard */; };
 		A849E6FE2313C14A007E6F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A849E6FD2313C14A007E6F9A /* Assets.xcassets */; };
 		A849E7012313C14A007E6F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A849E6FF2313C14A007E6F9A /* LaunchScreen.storyboard */; };
+		A849E70A2313C1C3007E6F9A /* StockActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849E7082313C1C3007E6F9A /* StockActiveViewController.swift */; };
+		A849E70B2313C1C3007E6F9A /* StockActiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A849E7092313C1C3007E6F9A /* StockActiveViewController.xib */; };
+		A8886D482313C2C900DD7E91 /* ActivesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D462313C2C900DD7E91 /* ActivesTableViewCell.swift */; };
+		A8886D492313C2C900DD7E91 /* ActivesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8886D472313C2C900DD7E91 /* ActivesTableViewCell.xib */; };
+		A8886D4C2313C2F200DD7E91 /* StockActivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D4B2313C2F200DD7E91 /* StockActivePresenter.swift */; };
+		A8886D4E2313CF1B00DD7E91 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D4D2313CF1B00DD7E91 /* NetworkProvider.swift */; };
+		A8886D502313D9A800DD7E91 /* StockRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D4F2313D9A800DD7E91 /* StockRouter.swift */; };
+		A8886D522313D9E000DD7E91 /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D512313D9E000DD7E91 /* JSONDecoder.swift */; };
+		A8886D542313DA2200DD7E91 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D532313DA2200DD7E91 /* NetworkRouter.swift */; };
+		A8886D562313DD0E00DD7E91 /* StockUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D552313DD0E00DD7E91 /* StockUsecase.swift */; };
+		A8886D5A2313E1CD00DD7E91 /* Active.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D592313E1CD00DD7E91 /* Active.swift */; };
+		A8886D5C23140D5400DD7E91 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D5B23140D5400DD7E91 /* SceneFactory.swift */; };
+		A8886D5E231411F800DD7E91 /* TableViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D5D231411F800DD7E91 /* TableViewContrller.swift */; };
+		A8886D6123141C6600DD7E91 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D6023141C6600DD7E91 /* Income.swift */; };
+		A8886D6423141DB000DD7E91 /* DetailedIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8886D6223141DB000DD7E91 /* DetailedIncomeViewController.swift */; };
+		A8886D6523141DB000DD7E91 /* DetailedIncomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8886D6323141DB000DD7E91 /* DetailedIncomeViewController.xib */; };
+		BAF2E33CEB0B5BAA197A1BA5 /* Pods_TestFinance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F73067C71F060A19DF8E983 /* Pods_TestFinance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02EE1E550E3CA46F8D03350E /* Pods-TestFinance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFinance.debug.xcconfig"; path = "Target Support Files/Pods-TestFinance/Pods-TestFinance.debug.xcconfig"; sourceTree = "<group>"; };
+		3F73067C71F060A19DF8E983 /* Pods_TestFinance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFinance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AACCAAF9A2E82E0AA00EAD4 /* Pods-TestFinance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFinance.release.xcconfig"; path = "Target Support Files/Pods-TestFinance/Pods-TestFinance.release.xcconfig"; sourceTree = "<group>"; };
+		A80F606E2314635100786148 /* IncomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeTableViewCell.swift; sourceTree = "<group>"; };
+		A80F606F2314635100786148 /* IncomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IncomeTableViewCell.xib; path = ../IncomeTableViewCell.xib; sourceTree = "<group>"; };
+		A80F607323150DCD00786148 /* SectionControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionControllerModel.swift; sourceTree = "<group>"; };
+		A840644523142717008BD781 /* UIViewContrller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewContrller+Extension.swift"; sourceTree = "<group>"; };
+		A8406447231437E8008BD781 /* DetailedIncomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailedIncomePresenter.swift; path = ../StockActives/View/DetailedIncomePresenter.swift; sourceTree = "<group>"; };
+		A840644923143805008BD781 /* DetailedIncomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailedIncomeUseCase.swift; path = ../StockActives/View/DetailedIncomeUseCase.swift; sourceTree = "<group>"; };
 		A849E6F32313C148007E6F9A /* TestFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A849E6F62313C148007E6F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A849E6F82313C148007E6F9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A849E6FB2313C148007E6F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A849E6FD2313C14A007E6F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A849E7002313C14A007E6F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A849E7022313C14A007E6F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A849E7082313C1C3007E6F9A /* StockActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockActiveViewController.swift; sourceTree = "<group>"; };
+		A849E7092313C1C3007E6F9A /* StockActiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockActiveViewController.xib; sourceTree = "<group>"; };
+		A8886D462313C2C900DD7E91 /* ActivesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivesTableViewCell.swift; sourceTree = "<group>"; };
+		A8886D472313C2C900DD7E91 /* ActivesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivesTableViewCell.xib; sourceTree = "<group>"; };
+		A8886D4B2313C2F200DD7E91 /* StockActivePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockActivePresenter.swift; sourceTree = "<group>"; };
+		A8886D4D2313CF1B00DD7E91 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		A8886D4F2313D9A800DD7E91 /* StockRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRouter.swift; sourceTree = "<group>"; };
+		A8886D512313D9E000DD7E91 /* JSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		A8886D532313DA2200DD7E91 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		A8886D552313DD0E00DD7E91 /* StockUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockUsecase.swift; sourceTree = "<group>"; };
+		A8886D592313E1CD00DD7E91 /* Active.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Active.swift; path = ../Active.swift; sourceTree = "<group>"; };
+		A8886D5B23140D5400DD7E91 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		A8886D5D231411F800DD7E91 /* TableViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewContrller.swift; sourceTree = "<group>"; };
+		A8886D6023141C6600DD7E91 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		A8886D6223141DB000DD7E91 /* DetailedIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailedIncomeViewController.swift; path = ../DetailedIncomeViewController.swift; sourceTree = "<group>"; };
+		A8886D6323141DB000DD7E91 /* DetailedIncomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailedIncomeViewController.xib; path = ../DetailedIncomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF2E33CEB0B5BAA197A1BA5 /* Pods_TestFinance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E5F6C551EF105595AAAF0FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02EE1E550E3CA46F8D03350E /* Pods-TestFinance.debug.xcconfig */,
+				8AACCAAF9A2E82E0AA00EAD4 /* Pods-TestFinance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A80F60722314635700786148 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A80F606E2314635100786148 /* IncomeTableViewCell.swift */,
+				A80F606F2314635100786148 /* IncomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A840644323141DEF008BD781 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A8886D5B23140D5400DD7E91 /* SceneFactory.swift */,
+				A8886D512313D9E000DD7E91 /* JSONDecoder.swift */,
+				A840644423141DFC008BD781 /* Network */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A840644423141DFC008BD781 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A8886D4F2313D9A800DD7E91 /* StockRouter.swift */,
+				A8886D4D2313CF1B00DD7E91 /* NetworkProvider.swift */,
+				A8886D532313DA2200DD7E91 /* NetworkRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		A849E6EA2313C148007E6F9A = {
 			isa = PBXGroup;
 			children = (
 				A849E6F52313C148007E6F9A /* TestFinance */,
 				A849E6F42313C148007E6F9A /* Products */,
+				5E5F6C551EF105595AAAF0FA /* Pods */,
+				BA01A7F2F3CB750D3AB02AF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +140,76 @@
 			isa = PBXGroup;
 			children = (
 				A849E6F62313C148007E6F9A /* AppDelegate.swift */,
-				A849E6F82313C148007E6F9A /* ViewController.swift */,
-				A849E6FA2313C148007E6F9A /* Main.storyboard */,
 				A849E6FD2313C14A007E6F9A /* Assets.xcassets */,
 				A849E6FF2313C14A007E6F9A /* LaunchScreen.storyboard */,
 				A849E7022313C14A007E6F9A /* Info.plist */,
+				A840644323141DEF008BD781 /* Service */,
+				A8886D5F23141C4A00DD7E91 /* Model */,
+				A849E70C2313C201007E6F9A /* ViewController */,
+				A840644523142717008BD781 /* UIViewContrller+Extension.swift */,
 			);
 			path = TestFinance;
+			sourceTree = "<group>";
+		};
+		A849E70C2313C201007E6F9A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8886D5D231411F800DD7E91 /* TableViewContrller.swift */,
+				A8886D452313C2AA00DD7E91 /* StockActives */,
+				A8886D6623141DB500DD7E91 /* IncomeDetailed */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8886D452313C2AA00DD7E91 /* StockActives */ = {
+			isa = PBXGroup;
+			children = (
+				A849E7082313C1C3007E6F9A /* StockActiveViewController.swift */,
+				A8886D4B2313C2F200DD7E91 /* StockActivePresenter.swift */,
+				A8886D552313DD0E00DD7E91 /* StockUsecase.swift */,
+				A849E7092313C1C3007E6F9A /* StockActiveViewController.xib */,
+				A8886D4A2313C2CD00DD7E91 /* View */,
+			);
+			path = StockActives;
+			sourceTree = "<group>";
+		};
+		A8886D4A2313C2CD00DD7E91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8886D462313C2C900DD7E91 /* ActivesTableViewCell.swift */,
+				A8886D472313C2C900DD7E91 /* ActivesTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8886D5F23141C4A00DD7E91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8886D592313E1CD00DD7E91 /* Active.swift */,
+				A8886D6023141C6600DD7E91 /* Income.swift */,
+				A80F607323150DCD00786148 /* SectionControllerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8886D6623141DB500DD7E91 /* IncomeDetailed */ = {
+			isa = PBXGroup;
+			children = (
+				A8406447231437E8008BD781 /* DetailedIncomePresenter.swift */,
+				A840644923143805008BD781 /* DetailedIncomeUseCase.swift */,
+				A8886D6223141DB000DD7E91 /* DetailedIncomeViewController.swift */,
+				A8886D6323141DB000DD7E91 /* DetailedIncomeViewController.xib */,
+				A80F60722314635700786148 /* View */,
+			);
+			path = IncomeDetailed;
+			sourceTree = "<group>";
+		};
+		BA01A7F2F3CB750D3AB02AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F73067C71F060A19DF8E983 /* Pods_TestFinance.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A849E7052313C14A007E6F9A /* Build configuration list for PBXNativeTarget "TestFinance" */;
 			buildPhases = (
+				C6F92F1B5CBBB2C4B78CE8B0 /* [CP] Check Pods Manifest.lock */,
 				A849E6EF2313C148007E6F9A /* Sources */,
 				A849E6F02313C148007E6F9A /* Frameworks */,
 				A849E6F12313C148007E6F9A /* Resources */,
+				06572DCE5A63485CA41E1853 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +272,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8886D6523141DB000DD7E91 /* DetailedIncomeViewController.xib in Resources */,
 				A849E7012313C14A007E6F9A /* LaunchScreen.storyboard in Resources */,
+				A849E70B2313C1C3007E6F9A /* StockActiveViewController.xib in Resources */,
 				A849E6FE2313C14A007E6F9A /* Assets.xcassets in Resources */,
-				A849E6FC2313C148007E6F9A /* Main.storyboard in Resources */,
+				A80F60712314635100786148 /* IncomeTableViewCell.xib in Resources */,
+				A8886D492313C2C900DD7E91 /* ActivesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06572DCE5A63485CA41E1853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestFinance/Pods-TestFinance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestFinance/Pods-TestFinance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestFinance/Pods-TestFinance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F92F1B5CBBB2C4B78CE8B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestFinance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A849E6EF2313C148007E6F9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A849E6F92313C148007E6F9A /* ViewController.swift in Sources */,
+				A8886D5A2313E1CD00DD7E91 /* Active.swift in Sources */,
+				A8886D6123141C6600DD7E91 /* Income.swift in Sources */,
+				A840644623142717008BD781 /* UIViewContrller+Extension.swift in Sources */,
+				A8886D4E2313CF1B00DD7E91 /* NetworkProvider.swift in Sources */,
+				A849E70A2313C1C3007E6F9A /* StockActiveViewController.swift in Sources */,
+				A8886D562313DD0E00DD7E91 /* StockUsecase.swift in Sources */,
+				A8886D502313D9A800DD7E91 /* StockRouter.swift in Sources */,
+				A8886D522313D9E000DD7E91 /* JSONDecoder.swift in Sources */,
+				A8406448231437E8008BD781 /* DetailedIncomePresenter.swift in Sources */,
+				A840644A23143805008BD781 /* DetailedIncomeUseCase.swift in Sources */,
+				A8886D4C2313C2F200DD7E91 /* StockActivePresenter.swift in Sources */,
+				A8886D5C23140D5400DD7E91 /* SceneFactory.swift in Sources */,
+				A8886D5E231411F800DD7E91 /* TableViewContrller.swift in Sources */,
 				A849E6F72313C148007E6F9A /* AppDelegate.swift in Sources */,
+				A80F607423150DCD00786148 /* SectionControllerModel.swift in Sources */,
+				A80F60702314635100786148 /* IncomeTableViewCell.swift in Sources */,
+				A8886D482313C2C900DD7E91 /* ActivesTableViewCell.swift in Sources */,
+				A8886D542313DA2200DD7E91 /* NetworkRouter.swift in Sources */,
+				A8886D6423141DB000DD7E91 /* DetailedIncomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A849E6FA2313C148007E6F9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A849E6FB2313C148007E6F9A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A849E6FF2313C14A007E6F9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +484,7 @@
 		};
 		A849E7062313C14A007E6F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EE1E550E3CA46F8D03350E /* Pods-TestFinance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +503,7 @@
 		};
 		A849E7072313C14A007E6F9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AACCAAF9A2E82E0AA00EAD4 /* Pods-TestFinance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
